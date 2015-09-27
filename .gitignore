@@ -16,3 +16,4 @@ bin
 .kitchen/
 .librarian/
 tmp/
+/.uploaded-cookbook-version.json

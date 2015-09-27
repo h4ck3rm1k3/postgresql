@@ -23,6 +23,6 @@ end
   supports el, "~> 6.0"
 end
 
-depends "apt", ">= 1.9.0"
+depends "apt" #, path: '../apt'
 depends "build-essential"
-depends "openssl", "~> 4.0.0"
+depends "openssl" #, path: '../openssl'
